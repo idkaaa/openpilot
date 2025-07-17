@@ -1,3 +1,11 @@
+Steps to downgrade black panda to be compatible with Comma Two (Le Leeco Le Pro 3):
+  - Maybe build Panda firmware /panda/board/obj on old comma two using this branch
+  - Copy obj folder to laptop running modern openpilot (Comma 3x version currently)
+  - Flash old 0.7.5 firmware to panda:
+  -   USB A to USB A cable to panda from laptop
+  -   Python3 selfdrive/pandad/pandad.py
+  -     Ignore all the errors
+
 [![](https://i.imgur.com/UelUjKAh.png)](#)
 
 Table of Contents
